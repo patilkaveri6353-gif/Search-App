@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eddaeb;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card button{
+    background-color: rgb(70, 211, 70);
+    border: none;
+    height: 35px;
+    width: 180px;
+    border-radius: 20px;
+    color: white;
+}
